@@ -66,7 +66,7 @@ itemtype="http://schema.org/Product">
 
     <div class="product-description">
 	      {block name='product_name'}
-	        <span class="h3 product-title" itemprop="name" title="{$product.name}"><a href="{$product.url}">{$product.name|truncate:100:'...'}</a></span>
+	        <span class="h3 product-title" itemprop="name" title="{$product.name}"><a href="{$product.url}">{$product.name|truncate:52:'...'}</a></span>
 	      {/block}
 
 		      {block name='product_price_and_shipping'}
