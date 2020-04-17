@@ -28,7 +28,7 @@
   {block name='product_cover'}
   {if empty($product.cover.bySize.large_default.url)}
     <div class="product-cover">
-      <img class="js-qv-product-cover" src="http://devcase.cash-alimentaire.com/img/p/fr-default-large_default.jpg" alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;" itemprop="image">
+      <img class="js-qv-product-cover" src="{$urls.shop_domain_url}/img/p/fr-default-large_default.jpg" alt="{$product.cover.legend}" title="{$product.cover.legend}" style="width:100%;" itemprop="image">
     </div>
   {else}
     <div class="product-cover">
