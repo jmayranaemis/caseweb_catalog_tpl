@@ -32,7 +32,7 @@ itemtype="http://schema.org/Product">
       	{if empty($product.cover.bySize.home_default.url)}
         <a href="{$product.url}" class="thumbnail product-thumbnail">
           <img
-            src = "{$urls.img_prod_url}/fr.jpg"
+            src = "http://devcase.cash-alimentaire.com/img/p/fr.jpg"
             alt = "{$product.cover.legend}"
             data-full-size-image-url = "{$product.cover.large.url}"
           >
